@@ -3,6 +3,8 @@
 Port = 4403-p2p || 4404-rpc
 # How to run blockchain 1 node
 Port = 4405-p2p || 4406-rpc
+# How to transwer block to blockchain 2
+frist we will make script that will copy block from blockchain 1 and send that data to some reandom node on blockchain 2 that node will make new block with that data + blockchain 2 data like last hash
 #### Requirements
 
 - Uses C++14, OpenSSL library, Simple-Web-Server, and a [JSON library](https://github.com/nlohmann/json)

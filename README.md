@@ -1,10 +1,4 @@
-# simple-blockchain
-
-My implementation of a blockchain in C++ I created for fun :)
-
-_Note that this was written before knowing more about distributed system concepts. Use at your own discretion._
-
-Follows some Bitcoin design principles including a peer-to-peer network, SHA-256 to hash headers and blocks, merkle trees, and "mining"(more on that below).
+# Redstone 2,0
 
 #### Requirements
 
@@ -91,6 +85,4 @@ For a block to be immutable, its properties are private and there are only metho
 - "Mining" part
 - finds hash and returns a std::pair of the hash found and nonce used to find it
 
-### Author
-
-tk2@illinois.edu
+### Redstone.crypto.ba

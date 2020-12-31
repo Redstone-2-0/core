@@ -1,5 +1,8 @@
 # Redstone 2,0
-
+# How to run blockchain 1 node
+Port = 4403-p2p || 4404-rpc
+# How to run blockchain 1 node
+Port = 4405-p2p || 4406-rpc
 #### Requirements
 
 - Uses C++14, OpenSSL library, Simple-Web-Server, and a [JSON library](https://github.com/nlohmann/json)
